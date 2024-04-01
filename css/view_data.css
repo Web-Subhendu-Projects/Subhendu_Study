@@ -1,0 +1,56 @@
+.title-a h2 {
+    color: #ffffff;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background: linear-gradient(to bottom, #974EC3, #fff); 
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+}
+
+table th, table td {
+    padding: 8px 12px; 
+    text-align: center; 
+    border: 1px solid #ccc; 
+}
+
+table th {
+    background-color: #333; 
+    color: #fff; 
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+
+.btn-primary {
+    background: linear-gradient(90deg, #FE7BE5, #279EFF);
+    color: #fff; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 3px; 
+    float: right; 
+    margin-top: 10px; 
+    margin: 10px;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+    color: #fff; 
+}

@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #FF5733, #27005D);
+}
+
+.login-box {
+    text-align: center;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: linear-gradient(90deg, #D80032, #27005D);
+    max-width: 400px;
+    width: 100%;
+}
+
+
+.login-box form {
+    padding: 10px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f4f4f4;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+
+.login-box button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.login-box button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #007bff; 
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline; 
+}
+
+h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 40px; 
+    font-family: initial;
+    animation: textAnimation 1s infinite alternate; 
+}
+
+@keyframes textAnimation {
+    0% {
+        color: #fff; /* Start color (blue) */
+    }
+    50% {
+        color: #279EFF; /* Middle color (orange) */
+    }
+    100% {
+        color: #fff; /* End color (darker blue) */
+    }
+}
+
+/* Apply the animation to the <h2> element */
+h2 {
+    animation: textAnimation 2s infinite; /* Use the animation with a 2-second duration */
+}

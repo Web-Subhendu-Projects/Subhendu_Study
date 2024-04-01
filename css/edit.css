@@ -1,0 +1,58 @@
+
+h1 {
+    color: #007BFF;
+    text-align: center;
+    font-weight: bold;
+    font-family: initial;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    background: linear-gradient(to bottom, #C3ACD0, #CEDEBD);
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #4C4B16, #F4CE14);
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+select[name="course"] {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 50px;
+}
+
+select[name="course"] option[selected] {
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+}
+
+select[name="course"] option[disabled] {
+    color: #ccc;
+    font-style: italic;
+}
+
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(110deg, #F4CE14, #F875AA);
+}
+
